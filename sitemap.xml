@@ -1,58 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Home -->
   <url>
     <loc>https://findnailsalonnearme.us/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
+  <!-- States -->
   <url>
-    <loc>https://findnailsalonnearme.us/springfield-ma/</loc>
+    <loc>https://findnailsalonnearme.us/states/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
+  <!-- Massachusetts -->
   <url>
-    <loc>https://findnailsalonnearme.us/springfield-ma/acrylic-nails/</loc>
+    <loc>https://findnailsalonnearme.us/states/ma/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
+  <!-- Springfield, MA -->
   <url>
-    <loc>https://findnailsalonnearme.us/springfield-ma/manicure/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://findnailsalonnearme.us/springfield-ma/gel-nails/</loc>
+    <loc>https://findnailsalonnearme.us/states/ma/springfield/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-  <loc>https://findnailsalonnearme.us/westfield-ma/</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
-</url>
+    <loc>https://findnailsalonnearme.us/states/ma/springfield/acrylic-nails/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://findnailsalonnearme.us/states/ma/springfield/manicure/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://findnailsalonnearme.us/states/ma/springfield/gel-nails/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
-<url>
-  <loc>https://findnailsalonnearme.us/westfield-ma/acrylic-nails/</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
+  <!-- Chicopee, MA -->
+  <url>
+    <loc>https://findnailsalonnearme.us/states/ma/chicopee/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://findnailsalonnearme.us/states/ma/chicopee/acrylic-nails/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://findnailsalonnearme.us/states/ma/chicopee/manicure/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://findnailsalonnearme.us/states/ma/chicopee/gel-nails/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
-<url>
-  <loc>https://findnailsalonnearme.us/westfield-ma/manicure/</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
+  <!-- Holyoke, MA -->
+  <url>
+    <loc>https://findnailsalonnearme.us/states/ma/holyoke/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://findnailsalonnearme.us/states/ma/holyoke/acrylic-nails/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://findnailsalonnearme.us/states/ma/holyoke/manicure/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://findnailsalonnearme.us/states/ma/holyoke/gel-nails/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
-<url>
-  <loc>https://findnailsalonnearme.us/westfield-ma/gel-nails/</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
+  <!-- Westfield, MA -->
+  <url>
+    <loc>https://findnailsalonnearme.us/states/ma/westfield/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://findnailsalonnearme.us/states/ma/westfield/acrylic-nails/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://findnailsalonnearme.us/states/ma/westfield/manicure/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://findnailsalonnearme.us/states/ma/westfield/gel-nails/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
 </urlset>
