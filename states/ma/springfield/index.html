@@ -36,6 +36,18 @@
   ]
 }
 </script>
+
+  <!-- ✅ Platform Organization Schema (no address → no warnings) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Find Nail Salon Near Me",
+  "url": "https://findnailsalonnearme.us/",
+  "logo": "https://findnailsalonnearme.us/favicon-32x32.png"
+}
+</script>
+
 </head>
 
 <body>
@@ -80,7 +92,6 @@
   </ul>
 </section>
 
-<!-- ✅ Visible FAQ block (recommended) -->
 <section>
   <h2>Frequently Asked Questions About Nail Salons in Springfield, MA</h2>
 
@@ -122,33 +133,6 @@
   </p>
   <p>© 2025 FindNailSalonNearMe.us · Springfield, MA</p>
 </footer>
-
-<!-- NailSalon Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NailSalon",
-  "name": "Find Nail Salon Near Me - Springfield, MA",
-  "url": "https://findnailsalonnearme.us/states/ma/springfield/",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Springfield",
-    "addressRegion": "MA",
-    "addressCountry": "US"
-  },
-  "areaServed": {
-    "@type": "City",
-    "name": "Springfield"
-  },
-  "serviceType": [
-    "Acrylic Nails",
-    "Manicure",
-    "Pedicure",
-    "Gel Nails",
-    "Nail Art"
-  ]
-}
-</script>
 
 <!-- ✅ FAQ Schema (JSON-LD) -->
 <script type="application/ld+json">
