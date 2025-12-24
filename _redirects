@@ -1,0 +1,17 @@
+# ===== OLD -> NEW (MA) =====
+
+/springfield-ma        /states/ma/springfield/        301
+/springfield-ma/       /states/ma/springfield/        301
+/springfield-ma/*      /states/ma/springfield/:splat  301
+
+/chicopee-ma           /states/ma/chicopee/           301
+/chicopee-ma/          /states/ma/chicopee/           301
+/chicopee-ma/*         /states/ma/chicopee/:splat     301
+
+/holyoke-ma            /states/ma/holyoke/            301
+/holyoke-ma/           /states/ma/holyoke/            301
+/holyoke-ma/*          /states/ma/holyoke/:splat      301
+
+/westfield-ma          /states/ma/westfield/          301
+/westfield-ma/         /states/ma/westfield/          301
+/westfield-ma/*        /states/ma/westfield/:splat    301
