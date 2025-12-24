@@ -12,46 +12,23 @@
   <link rel="icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+
+  <!-- Breadcrumb Schema -->
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://findnailsalonnearme.us/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "States",
-      "item": "https://findnailsalonnearme.us/states/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Massachusetts",
-      "item": "https://findnailsalonnearme.us/states/ma/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "Westfield",
-      "item": "https://findnailsalonnearme.us/states/ma/westfield/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 5,
-      "name": "Gel Nails",
-      "item": "https://findnailsalonnearme.us/states/ma/westfield/gel-nails/"
-    }
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://findnailsalonnearme.us/" },
+    { "@type": "ListItem", "position": 2, "name": "States", "item": "https://findnailsalonnearme.us/states/" },
+    { "@type": "ListItem", "position": 3, "name": "Massachusetts", "item": "https://findnailsalonnearme.us/states/ma/" },
+    { "@type": "ListItem", "position": 4, "name": "Westfield", "item": "https://findnailsalonnearme.us/states/ma/westfield/" },
+    { "@type": "ListItem", "position": 5, "name": "Gel Nails", "item": "https://findnailsalonnearme.us/states/ma/westfield/gel-nails/" }
   ]
 }
 </script>
-
 </head>
+
 <body>
 
 <p><a href="/states/ma/westfield/">← Back to Westfield Nail Salons</a></p>
@@ -70,7 +47,78 @@
   <li>Custom Gel Nail Art</li>
 </ul>
 
+<!-- ✅ Visible FAQ block (recommended) -->
+<section>
+  <h2>Frequently Asked Questions About Gel Nails in Westfield, MA</h2>
+
+  <h3>What are gel nails?</h3>
+  <p>
+    Gel nails typically use gel-based polish or extensions that are cured under a UV/LED lamp.
+    They are popular for a glossy finish and better chip resistance compared with regular polish.
+  </p>
+
+  <h3>How long do gel nails last?</h3>
+  <p>
+    Gel polish commonly lasts around 2 weeks. Gel extensions may last longer depending on nail growth,
+    maintenance, and daily activities.
+  </p>
+
+  <h3>How should gel nails be removed?</h3>
+  <p>
+    Gel polish should be removed properly (often by soaking and gentle removal). Avoid peeling gel off,
+    because it can damage the surface of natural nails.
+  </p>
+
+  <h3>Do I need an appointment for gel nails in Westfield?</h3>
+  <p>
+    Some salons accept walk-ins, but appointments are recommended during evenings and weekends,
+    especially for gel extensions or custom gel nail art.
+  </p>
+</section>
+
 <p><a href="/states/ma/">Browse more Massachusetts cities</a> | <a href="/">Home</a></p>
+
+<!-- ✅ FAQ Schema (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are gel nails?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gel nails typically use gel-based polish or extensions cured under a UV/LED lamp. They are popular for a glossy finish and improved chip resistance compared with regular polish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long do gel nails last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gel polish commonly lasts around 2 weeks. Gel extensions may last longer depending on nail growth, maintenance, and daily activities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How should gel nails be removed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gel polish should be removed properly, often by soaking and gentle removal. Avoid peeling gel off because it can damage the surface of natural nails."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need an appointment for gel nails in Westfield?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some salons accept walk-ins, but appointments are recommended during busy times like evenings and weekends, especially for gel extensions or custom gel nail art."
+      }
+    }
+  ]
+}
+</script>
 
 </body>
 </html>
